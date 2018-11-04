@@ -1,24 +1,24 @@
 # Verkefni 8
 
-Forrita skal viðmót sem leyfir að bæta við, breyta, eyða og klára verkefni af lista.
+The task is to program an interface that allows to add, change, delete and finish the project of the list.(???)
 
-Gefið er HTML skjal með þrem atriðum sem skulu virka eftir að forrit keyrir. Allir stílar sem þarf fyrir verkefni eru gefnir.
+You are given HTML file with 3 items which should work after the program is ran. All styles which are needed for the project are given.
 
-Færslur hafa eftirfarandi virkni:
+Elements have the following functionality:
 
-* Þegar smellt (`click`) er á texta færslu er texta breytt í `<input>` sem leyfir að breyta texta. Þegar smellt er á `<enter>` er input breytt aftur í texta
-  - Setja skal `focus` í input
-* Þegar ýtt er á `Eyða` er færslu eytt úr lista
-* Þegar smellt er á `checkbox` er færsla merkt sem „búin“
-* Þegar fyllt er inn í form fyrir neðan lista og smellt á „Bæta við“ er færslu bætt við sem virkar eins og þær færslur sem fyrir voru
-  - Ekki skal leyfa að bæta við tóma strengnum eða streng sem er aðeins bil
-  - Eftir að búið er að bæta við skal tæma input
+* When clicked (`click`) on the text entry the text is changed into `<input>` which allows to change text. When clicked on `<enter>` the input is changed over to the tet again
+    - Should set `focus` in input
+* When pushed on `Eyða`  the input is deleted from the list
+* When clicked on `checkbox` the input is marked as "done"
+* When the form is filled in below the list and "Bæta við" is clicked on the input is added which works such that these inputs that were 
+    - Should not allow to add empty strings or string a string that is just a space
+    - After the input was added the text field should be cleared
 
-Útfæra skal JavaScript virkni innan þess módúl sem gefinn er.
+JavaScript functionality should be implemented within the given module.
 
-Sjá virkni í `demo.mp4`.
+You can see how it works in `demo.mp4`.
 
-`browser-sync` er uppsett í verkefninu:
+`browser-sync` is set up in the projet:
 
 ```bash
 npm install
