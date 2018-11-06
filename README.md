@@ -1,12 +1,12 @@
 # Verkefni 8
 
-The task is to program an interface that allows to add, change, delete and finish the project of the list.(???)
+The task is to program an interface that allows to add, change, delete and finish the task from the list.
 
-You are given HTML file with 3 items which should work after the program is ran. All styles which are needed for the project are given.
+You are given HTML file with 3 attributes which should work after the program is started. All styles which are needed for the project are given.
 
 Elements have the following functionality:
 
-* When clicked (`click`) on the text entry the text is changed into `<input>` which allows to change text. When clicked on `<enter>` the input is changed over to the tet again
+* When clicked (`click`) on the text entry the text is changed into `<input>` which allows to change text. When clicked on `<enter>` the input is changed back to the text again
     - Should set `focus` in input
 * When pushed on `Eyða`  the input is deleted from the list
 * When clicked on `checkbox` the input is marked as "done"
@@ -18,7 +18,7 @@ JavaScript functionality should be implemented within the given module.
 
 You can see how it works in `demo.mp4`.
 
-`browser-sync` is set up in the projet:
+`browser-sync` is set up in the project:
 
 ```bash
 npm install
